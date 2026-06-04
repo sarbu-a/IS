@@ -1,0 +1,38 @@
+@model IEnumerable<PCShop.Models.Product>
+
+@{
+    ViewData["Title"] = "Produse";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Produse</h1>
+
+    @foreach (var item in Model)
+    {
+        var reducedPrice = item.Price * 0.90m;
+
+        <div class="card mb-3 p-3">
+            <h3>@item.Name</h3>
+            <p>@item.Description</p>
+
+            @if (item.HasPromotion)
+            {
+                <span class="badge bg-danger mb-2">-10%</span>
+                <p>
+                    <strong>Pret:</strong>
+                    <del>@item.Price.ToString("0.##") lei</del>
+                    <span class="text-danger ms-2"><strong>@reducedPrice.ToString("0.##") lei</strong></span>
+                </p>
+            }
+            else
+            {
+                <p><strong>Pret:</strong> @item.Price.ToString("0.##") lei</p>
+            }
+            <form asp-controller="Orders" asp-action="Create" method="post">
+                <input type="hidden" name="productId" value="@item.Id" />
+                <input type="number" name="quantity" value="1" min="1" class="form-control mb-2" />
+                <button type="submit" class="btn btn-primary">Adauga in comanda</button>
+            </form>
+        </div>
+    }
+</div>
