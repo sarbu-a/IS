@@ -7,6 +7,7 @@ namespace PCShop.Models
         public string ComponentType { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
+        public decimal? OldPrice { get; set; }
         public double Rating { get; set; }
         public bool IsAssembledSystem { get; set; }
         public int CategoryId { get; set; }

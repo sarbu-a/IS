@@ -1,0 +1,49 @@
+@model PCShop.Models.AddEmployeeViewModel
+
+@{
+    ViewData["Title"] = "Add New Employee";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="AddEmployee" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold">Email Address</label>
+                    <input asp-for="Email" class="form-control" placeholder="name@pcshop.ro" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label fw-bold">Password</label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Role" class="form-label fw-bold">Role</label>
+                    <select asp-for="Role" class="form-select">
+                        <option value="">-- Select a Role --</option>
+                        <option value="Senior">Senior</option>
+                        <option value="Junior">Junior</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+                </div>
+
+                <div class="mt-4">
+                    <button type="submit" class="btn btn-success">Create Account</button>
+                    <a asp-action="Index" class="btn btn-outline-secondary ms-2">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
