@@ -1,247 +1,307 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PCShop.bundle.scp.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PCShop.bundle.scp.css",
       "PackagePath": "staticwebassets\\PCShop.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\ASUS_TUF_Gaming_F15.png",
+      "PackagePath": "staticwebassets\\images\\products\\ASUS_TUF_Gaming_F15.png"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Canon_PIXMA_G3410.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Canon_PIXMA_G3410.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Dell 24_Monitor_S2421HN.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Dell 24_Monitor_S2421HN.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\HP_LaserJet_Pro_MFP.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\HP_LaserJet_Pro_MFP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\HP_Pavilion_15.webp",
+      "PackagePath": "staticwebassets\\images\\products\\HP_Pavilion_15.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\HyperX_Cloud_Stinger_2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\HyperX_Cloud_Stinger_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Laptop_ASUS_Vivobook_S_14_OLED.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Laptop_ASUS_Vivobook_S_14_OLED.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Lenovo_IdeaPa_5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Lenovo_IdeaPa_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Logitech_G102_Lightsync.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Logitech_G102_Lightsync.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Office_Desktop_Mini_Pro.png",
+      "PackagePath": "staticwebassets\\images\\products\\Office_Desktop_Mini_Pro.png"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Razer_DeathAdder_Essential.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Razer_DeathAdder_Essential.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\Redragon_Kumara_K552.webp",
+      "PackagePath": "staticwebassets\\images\\products\\Redragon_Kumara_K552.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\gaming_desktop_alpha_pc.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\gaming_desktop_alpha_pc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\gaming_desktop_alpha_x_pc.webp",
+      "PackagePath": "staticwebassets\\images\\products\\gaming_desktop_alpha_x_pc.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\images\\products\\mouse_rgb_x200.webp",
+      "PackagePath": "staticwebassets\\images\\products\\mouse_rgb_x200.webp"
+    },
+    {
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\andre\\Documents\\GitHub\\IS\\PCShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\alexs\\OneDrive\\Desktop\\IS\\PCShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

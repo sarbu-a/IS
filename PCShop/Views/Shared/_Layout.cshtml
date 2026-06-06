@@ -12,7 +12,8 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 position-relative"
+             style="z-index: 1050;">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PCShop</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
@@ -34,7 +35,8 @@
                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Categorii
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                            <ul class="dropdown-menu shadow" aria-labelledby="categoriesDropdown"
+                                style="z-index: 1060;">
                                 <li>
                                     <a class="dropdown-item" asp-controller="Products" asp-action="Index">Toate
                                         produsele</a>
@@ -66,12 +68,12 @@
                                 <a class="nav-link text-dark" asp-controller="ServiceRequests"
                                    asp-action="Create">Service</a>
                             </li>
-
+@*
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home"
                                    asp-action="Privacy">Privacy</a>
                             </li>
-
+*@
                             @if (User.IsInRole("Manager"))
                             {
                                 <li class="nav-item">
@@ -102,7 +104,7 @@
             </nav>
         </header>
         <div class="container">
-            <main role="main" class="pb-3">
+            <main role="main" class="pb-5" style="padding-bottom: 120px;">
                 @RenderBody()
             </main>
         </div>

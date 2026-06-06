@@ -13,5 +13,6 @@ namespace PCShop.Models
         public int CategoryId { get; set; }
         public Category Category { get; set; } = null!;
         public bool HasPromotion { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }
