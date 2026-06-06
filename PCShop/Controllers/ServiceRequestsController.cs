@@ -27,6 +27,11 @@ namespace PCShop.Controllers
         public async Task<IActionResult> Create(ServiceRequest model)
         {
             Console.WriteLine("A intrat in POST Create");
+            
+            if (model.DropOffDate.Date < DateTime.Today)
+            {
+                ModelState.AddModelError("DropOffDate", "Data predării nu poate fi mai mică decât ziua de azi.");
+            }
 
             if (!ModelState.IsValid)
             {

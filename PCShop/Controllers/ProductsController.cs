@@ -17,13 +17,38 @@ namespace PCShop.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? categoryId)
         {
-            var products = await _context.Products
+            var query = _context.Products
                 .Include(p => p.Category)
-                .ToListAsync();
-                
+                .AsQueryable();
+
+            if (categoryId.HasValue)
+            {
+                query = query.Where(p => p.CategoryId == categoryId.Value);
+            }
+
+            var products = await query.ToListAsync();
+
+            ViewBag.Categories = await _context.Categories.ToListAsync();
+            ViewBag.SelectedCategoryId = categoryId;
+
             return View(products);
+        }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var product = await _context.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            if (product == null)
+                return NotFound();
+
+            return View(product);
         }
 
         [Authorize(Roles = "Manager,Senior")]
@@ -46,7 +71,7 @@ namespace PCShop.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-    
+
             ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             return View(product);
         }
@@ -98,11 +123,11 @@ namespace PCShop.Controllers
                     }
                     else
                     {
-                        _context.Promotions.Add(new Promotion 
-                        { 
-                            ProductId = id, 
-                            Name = string.IsNullOrWhiteSpace(PromoName) ? "Promoție Activă" : PromoName, 
-                            IsActive = true 
+                        _context.Promotions.Add(new Promotion
+                        {
+                            ProductId = id,
+                            Name = string.IsNullOrWhiteSpace(PromoName) ? "Promoție Activă" : PromoName,
+                            IsActive = true
                         });
                     }
                 }
@@ -125,7 +150,7 @@ namespace PCShop.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-    
+
             ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             ViewBag.PromoName = PromoName;
             return View(product);
@@ -140,7 +165,7 @@ namespace PCShop.Controllers
             var product = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
-        
+
             if (product == null) return NotFound();
 
             return View(product);

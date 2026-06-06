@@ -1,8 +1,111 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Acasă";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+    <div class="p-4 p-md-5 mb-5 rounded-4 shadow-sm"
+         style="background: linear-gradient(135deg, #eef4ff 0%, #f5f3ff 100%); border: 1px solid rgba(99, 102, 241, 0.08);">
+        <div class="row align-items-center g-4">
+            <div class="col-12 col-lg-7">
+                <span class="badge bg-primary-subtle text-primary mb-3 px-3 py-2 border">PCShop</span>
+                <h1 class="display-5 fw-bold text-dark">Magazin online pentru sisteme PC, laptopuri și periferice</h1>
+                <p class="lead text-muted mt-3">
+                    Descoperă produse pe categorii, vezi detalii complete, adaugă în coș și trimite rapid o cerere de service.
+                </p>
+                <div class="d-flex flex-wrap gap-2 mt-4">
+                    <a asp-controller="Products" asp-action="Index" class="btn btn-primary btn-lg px-4">
+                        Vezi catalogul
+                    </a>
+                    <a asp-controller="ServiceRequests" asp-action="Create" class="btn btn-outline-dark btn-lg px-4">
+                        Cerere service
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-5">
+                <div class="rounded-4 p-4 shadow-sm bg-white border h-100">
+                    <h5 class="mb-3 text-dark">De ce PCShop?</h5>
+                    <ul class="list-unstyled mb-0 text-muted">
+                        <li class="mb-2">✔ Produse organizate pe categorii</li>
+                        <li class="mb-2">✔ Pagini detaliate pentru fiecare produs</li>
+                        <li class="mb-2">✔ Coș de cumpărături simplu și rapid</li>
+                        <li class="mb-2">✔ Formular dedicat pentru service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="mb-5">
+        <div class="mb-4">
+            <h2 class="mb-1">Categorii populare</h2>
+            <p class="text-muted mb-0">Navighează rapid către produsele dorite.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm product-card" style="background: #eef4ff;">
+                    <div class="card-body">
+                        <h5 class="card-title">Desktop</h5>
+                        <p class="card-text text-muted">Sisteme office, gaming și configurații complete.</p>
+                        <a asp-controller="Products" asp-action="Index" asp-route-categoryId="1" class="btn btn-outline-primary">
+                            Vezi produse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm product-card" style="background: #f5f3ff;">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptop</h5>
+                        <p class="card-text text-muted">Laptopuri pentru muncă, studiu și utilizare zilnică.</p>
+                        <a asp-controller="Products" asp-action="Index" asp-route-categoryId="2" class="btn btn-outline-primary">
+                            Vezi produse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm product-card" style="background: #ecfeff;">
+                    <div class="card-body">
+                        <h5 class="card-title">Imprimante</h5>
+                        <p class="card-text text-muted">Modele pentru acasă, birou și utilizare profesională.</p>
+                        <a asp-controller="Products" asp-action="Index" asp-route-categoryId="3" class="btn btn-outline-primary">
+                            Vezi produse
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 border-0 shadow-sm product-card" style="background: #fff7ed;">
+                    <div class="card-body">
+                        <h5 class="card-title">Periferice</h5>
+                        <p class="card-text text-muted">Mouse, tastaturi, monitoare și alte accesorii utile.</p>
+                        <a asp-controller="Products" asp-action="Index" asp-route-categoryId="4" class="btn btn-outline-primary">
+                            Vezi produse
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rounded-4 shadow-sm p-4 p-md-5 bg-white border">
+        <div class="row align-items-center g-4">
+            <div class="col-12 col-lg-8">
+                <h2 class="mb-2">Ai o problemă tehnică?</h2>
+                <p class="text-muted mb-0">
+                    Trimite o cerere de service direct din platformă și alege o dată convenabilă pentru predare.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 text-lg-end">
+                <a asp-controller="ServiceRequests" asp-action="Create" class="btn btn-dark btn-lg px-4">
+                    Mergi la service
+                </a>
+            </div>
+        </div>
+    </section>
 </div>

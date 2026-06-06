@@ -1,0 +1,54 @@
+@model List<PCShop.Models.CartItem>
+@using System.Globalization
+
+@{
+    ViewData["Title"] = "Coșul meu";
+    decimal total = Model.Sum(item => item.Price * item.Quantity);
+}
+
+<div class="container py-4">
+    <h2 class="mb-4">Coșul meu</h2>
+
+    @if (Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Produs</th>
+                        <th>Preț</th>
+                        <th>Cantitate</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Price.ToString("N2", CultureInfo.GetCultureInfo("ro-RO")) RON</td>
+                            <td>@item.Quantity</td>
+                            <td>@((item.Price * item.Quantity).ToString("N2", CultureInfo.GetCultureInfo("ro-RO"))) RON</td>
+                            <td>
+                                <a asp-action="Remove" asp-route-id="@item.ProductId" class="btn btn-sm btn-danger">
+                                    Șterge
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-end">
+            <h4>Total: <span class="text-primary">@total.ToString("N2", CultureInfo.GetCultureInfo("ro-RO")) RON</span></h4>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            Coșul este gol.
+        </div>
+    }
+</div>

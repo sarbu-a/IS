@@ -4,44 +4,85 @@
     ViewData["Title"] = "Cerere service";
 }
 
-<div class="container mt-4">
-    <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-6">
-            <h1 class="mb-4">Cerere service</h1>
+<div class="container py-5">
+    <div class="row align-items-start g-4">
+        <div class="col-12 col-lg-5">
+            <div class="bg-white shadow-sm rounded p-4 h-100">
+                <h1 class="mb-3">Service PC & Laptop</h1>
+                <p class="text-muted">
+                    Completează formularul de mai jos pentru a trimite o cerere de service.
+                    Te vom contacta pentru confirmare și detalii despre preluarea produsului.
+                </p>
 
-            <form asp-action="Create" method="post" class="border rounded p-4 shadow-sm bg-light">
-                <div class="mb-3">
-                    <label asp-for="ContactName" class="form-label"></label>
-                    <input asp-for="ContactName" class="form-control" />
-                    <span asp-validation-for="ContactName" class="text-danger"></span>
+                <div class="mt-4">
+                    <div class="mb-3">
+                        <h6 class="mb-1">Ce poți trimite în service?</h6>
+                        <p class="text-muted mb-0">Desktop, laptop, imprimante și periferice.</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h6 class="mb-1">Ce informații să incluzi?</h6>
+                        <p class="text-muted mb-0">Descrie clar problema și alege o dată estimativă pentru predare.</p>
+                    </div>
+
+                    <div>
+                        <h6 class="mb-1">Status inițial</h6>
+                        <p class="text-muted mb-0">Cererea va fi înregistrată cu status Pending.</p>
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="mb-3">
-                    <label asp-for="ContactEmail" class="form-label"></label>
-                    <input asp-for="ContactEmail" class="form-control" />
-                    <span asp-validation-for="ContactEmail" class="text-danger"></span>
+        <div class="col-12 col-lg-7">
+            <div class="card border-0 shadow-sm">
+                <div class="card-body p-4 p-md-5">
+                    <h3 class="mb-4">Trimite cererea</h3>
+
+                    <form asp-action="Create" method="post">
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label asp-for="ContactName" class="form-label fw-semibold"></label>
+                                <input asp-for="ContactName" class="form-control" placeholder="Ex: Alexandru Sârbu" />
+                                <span asp-validation-for="ContactName" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="ContactEmail" class="form-label fw-semibold"></label>
+                                <input asp-for="ContactEmail" class="form-control" placeholder="exemplu@email.com" />
+                                <span asp-validation-for="ContactEmail" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="ContactPhone" class="form-label fw-semibold"></label>
+                                <input asp-for="ContactPhone" class="form-control" placeholder="07xxxxxxxx" />
+                                <span asp-validation-for="ContactPhone" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <label asp-for="ProblemDescription" class="form-label fw-semibold"></label>
+                                <textarea asp-for="ProblemDescription" class="form-control" rows="6"
+                                          placeholder="Descrie problema: simptome, când a apărut, dacă produsul mai pornește etc."></textarea>
+                                <span asp-validation-for="ProblemDescription" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="DropOffDate" class="form-label fw-semibold"></label>
+                                <input asp-for="DropOffDate" type="date" class="form-control" 
+                                min="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                                <span asp-validation-for="DropOffDate" class="text-danger small"></span>
+                            </div>
+
+                            <div class="col-12 pt-2">
+                                <button type="submit" class="btn btn-primary w-100">
+                                    Trimite cererea
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="mb-3">
-                    <label asp-for="ContactPhone" class="form-label"></label>
-                    <input asp-for="ContactPhone" class="form-control" />
-                    <span asp-validation-for="ContactPhone" class="text-danger"></span>
-                </div>
-
-                <div class="mb-3">
-                    <label asp-for="ProblemDescription" class="form-label"></label>
-                    <textarea asp-for="ProblemDescription" class="form-control" rows="5"></textarea>
-                    <span asp-validation-for="ProblemDescription" class="text-danger"></span>
-                </div>
-
-                <div class="mb-4">
-                    <label asp-for="DropOffDate" class="form-label"></label>
-                    <input asp-for="DropOffDate" type="date" class="form-control" />
-                    <span asp-validation-for="DropOffDate" class="text-danger"></span>
-                </div>
-
-                <button type="submit" class="btn btn-primary w-100">Trimite cererea</button>
-            </form>
+            </div>
         </div>
     </div>
 </div>
